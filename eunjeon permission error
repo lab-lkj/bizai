@@ -1,0 +1,20 @@
+How can I get to solve this problem?
+
+
+from eunjeon import Mecab
+-->
+Traceback (most recent call last):
+
+  File "<ipython-input-48-b1b0814a8280>", line 1, in <module>
+    from eunjeon import Mecab
+
+  File "C:\ProgramData\Anaconda3\envs\bizlab\lib\site-packages\eunjeon\__init__.py", line 26, in <module>
+    from eunjeon._mecab import Mecab
+
+  File "C:\ProgramData\Anaconda3\envs\bizlab\lib\site-packages\eunjeon\_mecab.py", line 17, in <module>
+    from eunjeon.mecab import Tagger
+
+  File "C:\ProgramData\Anaconda3\envs\bizlab\lib\site-packages\eunjeon\mecab.py", line 23, in <module>
+    os.remove(mecab_lib)
+
+PermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\ProgramData\\Anaconda3\\envs\\bizlab\\Lib\\site-packages\\_MeCab.cp37-win_amd64.pyd'
